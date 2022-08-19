@@ -8,21 +8,38 @@
     <link rel="stylesheet" href="/FakeTarget/css/main.css">
 </head>
 <body>
-    <div class="banner-top">
-        <div class="banner-top-center">
-            <div class="store-info">
-                <span class="white-ft smaller-ft">My Store</span>
-                <span class="white-ft smaller-ft">Opens At 7am</span>
-                <span class="white-ft bold block">Shakopee</span> <!-- TODO: Need to get this to show on a new line -->
+    <header class="banner">
+        <div class="container-main">
+            <div class="container-top">
+                <div class="container-storeinfo">
+                    <span class="white-ft small-ft">My Store</span>
+                    <span class="white-ft small-ft">Closes at 10pm</span>
+                    <p class="bold white-ft zero-marg small-ft">Shakopee</p>
+                </div>
+                <div class="container-opts">
+                    <a href="#" class="white-ft small-ft">Registry</a>
+                    <a href="#" class="white-ft small-ft">Weekly Ad</a>
+                    <a href="#" class="white-ft small-ft">RedCard</a>
+                    <a href="#" class="white-ft small-ft">Target Circle</a>
+                    <a href="#" class="white-ft small-ft">Find Stores</a>
+                </div>
+            </div> <!-- container-top end -->
+            <div class="container-bottom">
+                <img id="logo" src="/FakeTarget/rsc/target.png" alt="a gay company">
+                <a href="#" class="bold large-ft black-ft">Categories</a>
+                <a href="#" class="bold large-ft black-ft">Deals</a>
+                <a href="#" class="bold large-ft black-ft">What's New</a>
+                <a href="#" class="bold large-ft black-ft">Pickup & Delivery</a>
+                <input id="search-bar" type="text" placeholder="Search">
+                <div class="avatar">
+                    <img id="avatar" src="./rsc/avatar.png" alt="sign-in avatar">
+                    <a href="#" class="black-ft">Sign In</a>
+                </div>
+                <a href="#">
+                    <img id="cart" src="./rsc/cart.png" alt="a shopping cart">
+                </a>
             </div>
-            <div class="uncommon-opts"> <!-- TODO: Need to get this to justify right -->
-                <a class="white-ft txt-dec-none small-ft" href="#">Registry</a>
-                <a class="white-ft txt-dec-none small-ft" href="#">Weekly Ad</a>
-                <a class="white-ft txt-dec-none small-ft" href="#">RedCard</a>
-                <a class="white-ft txt-dec-none small-ft" href="#">Target Circle</a>
-                <a class="white-ft txt-dec-none small-ft" href="#">Find Stores</a>
-            </div>
-        </div>
-    </div>
+        </div> <!-- container-main end -->
+    </header>
 </body>
 </html>
