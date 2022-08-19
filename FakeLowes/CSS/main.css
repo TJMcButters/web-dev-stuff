@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    /*border: 1px black solid;*/
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.seasonal {
+    background-color: aqua;
+    text-align: center;
+    height:1.7em;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.bannerLogo img {
+    width: 75px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container2 {
+    width: 33.3%;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.padding-r {
+    padding-right: 30px;
+}
+
+.padding-l {
+    padding-left: 30px;
+}
+
+.container3 {
+    width: 33.3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    width: 33.3%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchBar-main {
+    background-color: darkblue;
+    display: flex;
+    height: 60px;
+}
+
+.searchBar-left {
+    width:33.3%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.searchBar-opts {
+
+}
+
+.searchBar-form {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+form {
+    width: 80%;
+}
+
+.input-bar {
+    width: 90%;
+    height: 25px;
+}
+
+.white-ft {
+    color: white;
+}

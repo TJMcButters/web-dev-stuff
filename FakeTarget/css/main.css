@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.txt-dec-none {
+    text-decoration: none;
+}
+
+.white-ft {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.block {
+    display: block;
+}
+
+.small-ft {
+    font-size: small;
+}
+
+.smaller-ft {
+    font-size: smaller;
+}
+
+.banner-top {
+    background-color: #CC0000;
+    height: 55px;
+    display: flex;
+}
+
+.banner-top-center {
+    width: 100%;
+    margin: 0 150px; /* May need to change to a % */
+    padding: 0 20px; 
+    display: flex;
+}
+
+.store-info {
+    width:fit-content;
+    display: flex;
+    /* TODO: Move to center */
+}
+
+.store-info span {
+    padding-right: 10px;
+}
+
+.uncommon-opts {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+
+}
+
+.uncommon-opts a {
+    padding-left: 30px;
+}
